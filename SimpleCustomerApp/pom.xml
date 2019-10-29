@@ -8,3 +8,6 @@
   <name>SimpleCustomerApp</name>
   <url>http://maven.apache.org</url>
 </project>
+<properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+</properties>
