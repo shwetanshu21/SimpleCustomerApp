@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <build>
     <!-- To define the plugin version in your parent POM -->
-  <!--<modelVersion>4.0.0</modelVersion>-->
+  <modelVersion>4.0.0</modelVersion>
   <groupId>com.javatpoint</groupId>
   <artifactId>SimpleCustomerApp</artifactId>
   <packaging>war</packaging>
@@ -10,13 +10,14 @@
   <name>SimpleCustomerApp</name>
   <url>http://maven.apache.org</url> 
    <plugins>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<version>3.3</version>
-			<configuration>
-				<source>${jdk.version}</source>
-				<target>${jdk.version}</target>
-			</configuration>
-		</plugin>
+    <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.3</version>
+    <configuration>
+     <source>${jdk.version}</source>
+     <target>${jdk.version}</target>
+    </configuration>
+    </plugin>
+  <plugins>
 </project>
